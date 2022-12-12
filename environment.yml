@@ -1,0 +1,28 @@
+name: ABCD
+channels:
+  - defaults
+  - ets
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip=22.1.2
+  - pandas=1.4.4
+  - seaborn=0.11.2
+  - numpy=1.21.5
+  - jupyterlab=3.4.4
+  - factor_analyzer=0.4.1
+  - scikit-learn=1.1.2
+  - pip:
+    - bokeh==2.4.3
+    - lazy-loader==0.1rc2
+    - littleutils==0.2.2
+    - networkx==2.8.7
+    - outdated==0.2.1
+    - pandas-flavor==0.3.0
+    - patsy==0.5.2
+    - pingouin==0.5.2
+    - pyyaml==6.0
+    - rystats==0.5.0
+    - statsmodels==0.13.2
+    - tabulate==0.8.10
+    - xarray==2022.9.0
